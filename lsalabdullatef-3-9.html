@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>3-9</title>
+  </head>
+  <body>
+      <section id="1">
+        <nav>
+          <h2>3.2.1 input Type color</h2>
+          The color input type (Fig. 3.1, lines 20–21) enables the user to enter a
+          color. At the time of this writing, most browsers render the color input
+          type as a text field in which the user can enter a hexadecamal code or a
+          color name. In the future, when you click a color input, browsers will
+          likely display a color picker similar to the Microsoft Windows color
+          dialog shown in Fig. 3.2.
+        </nav>
+      </section>
+
+      <section id="2">
+        <nav>
+          <h2>autofocus Attribute</h2>
+          The autofocus attribute (Fig. 3.1, line 20)—an optional attribute that can
+          be used in only one input element on a form—automatically gives the focus
+          to the input element, allowing the user to begin typing in that element
+          immediately. Figure 3.3 shows auto- focus on the color element—the first
+          input element in our form—as rendered in Chrome. You do not need to
+          include autofocus in your forms.
+        </nav>
+      </section>
+      <section>
+        <nav>
+          <h2>Validation</h2>
+
+          Traditionally it’s been difficult to validate user input, such as ensuring that
+          an e-mail ad- dress, URL, date or time is entered in the proper format. The new
+          HTML 5 input types are self validating on the client side, eliminating the need
+          to add complicated JavaScript code to your web pages to validate user input,
+          reducing the amount of invalid data sub- mitted and consequently reducing
+          Internet traffic between the server and the client to cor- rect invalid input.
+          The server should still validate all user input.
+          When a user enters data into a form then submits the form (in this example, by
+          clicking the Submit button), the browser immediately checks the self-validating
+          elements to ensure that the data is correct. For example, if a user enters an
+          incorrect hexadecimal color value when using a browser that renders the color
+          elements as a text field (e.g., Chrome), a callout pointing to the element will
+          appear, indicating that an invalid value was entered (Fig. 3.4). Figure 3.5 lists
+          each of the new HTML5 input types and provides examples of the proper formats
+          required for each type of data to be valid.
+        </nav>
+      </section>
+        
+  </body>
+</html>

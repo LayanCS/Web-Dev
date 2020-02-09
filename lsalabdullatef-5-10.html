@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>5-10</title>
+      <style type = "text/css">
+         .skew .textbox
+         {
+            margin-left: 75px;
+            background: lightgreen;
+            height: 100px;
+            width: 200px;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 250%;
+            border: 3px solid DarkGreen;
+            border-radius:15px;
+            -webkit-animation: skew 3s infinite linear;
+            -moz-animation: skew 3s infinite linear;
+            animation: skew 3s infinite linear;
+         }
+         @-webkit-keyframes skew
+         {
+            from { -webkit-transform: skewY(0deg); }
+            13% { -webkit-transform: skewY(30deg); }
+            25% { -webkit-transform: skewY(0); }
+            37% { -webkit-transform: skewY(-30deg); }
+            49% { -webkit-transform: skewX(0deg); }
+            61% { -webkit-transform: skewX(30deg); }
+            73% { -webkit-transform: skewX(0deg); }
+            85% { -webkit-transform: skewX(-30deg); }
+            to  { -webkit-transform: skewX(0deg); }
+         }
+         @-moz-keyframes skew
+         {
+           from { -moz-transform: skewY(0deg); }
+           13% { -moz-transform: skewY(30deg); }
+           25% { -moz-transform: skewY(0); }
+           37% { -moz-transform: skewY(-30deg); }
+           49% { -moz-transform: skewX(0deg); }
+           61% { -moz-transform: skewX(30deg); }
+           73% { -moz-transform: skewX(0deg); }
+           85% { -moz-transform: skewX(-30deg); }
+           to  { -moz-transform: skewX(0deg); }
+         }
+         @-keyframes skew
+         {
+           from { transform: skewY(0deg); }
+           13% { transform: skewY(30deg); }
+           25% { transform: skewY(0); }
+           37% { transform: skewY(-30deg); }
+           49% { transform: skewX(0deg); }
+           61% { transform: skewX(30deg); }
+           73% { transform: skewX(0deg); }
+           85% { transform: skewX(-30deg); }
+           to  { transform: skewX(0deg); }
+         }
+      </style>
+   </head>
+   <body>
+      <div class = "box skew">
+      <div class = "textbox">Skewing Text</div>
+    </div>
+   </body>
+</html>

@@ -1,0 +1,30 @@
+/* External stylesheet */
+
+div.a 	
+    {
+    border: 2px solid red;
+    background-color: whitesmoke;
+    width: 10em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    }
+div.a:visited
+    {
+        color: blue;
+        text-decoration: none;
+    }
+div.a:hover
+    {
+        color: lightcoral;
+        border: 2px solid lightgreen;
+        background-color: lavender;
+    }
+/* 
+    <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p> */
